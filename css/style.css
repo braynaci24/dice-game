@@ -5,7 +5,7 @@
     width: 100px;
     height: 100px;
     background-color: white;
-    margin: 0 auto;
+    margin: 20px;
     border-radius: 8px;
     align-items: center;
     box-shadow: -2px 2px 9px -1px #000000;
@@ -13,8 +13,6 @@
 .dice-container {
     display: flex;
     justify-content: space-between;
-    width: 52%;
-    padding: 100px;
 }
 .revertgrid {
     grid-template-columns: revert;
