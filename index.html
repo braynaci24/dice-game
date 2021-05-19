@@ -10,83 +10,31 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>ZAR AT</title>
-    <style>
-        .first-dice {
-            display: grid;
-            grid-template-columns: repeat(2, 50%);
-            grid-auto-rows: minmax(22px, 12px);
-            width: 100px;
-            height: 100px;
-            background-color: white;
-            margin: 0 auto;
-            border-radius: 30px;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            box-shadow: -2px 2px 9px -1px #000000;        
-            
-            }
-
-        .dot {
-            font-size: 60px;
-        }
-
-        .last-dice {
-            display: grid;
-            grid-template-columns: repeat(2, 50%);
-            grid-auto-rows: minmax(22px, 12px);
-            width: 100px;
-            height: 100px;
-            background-color: white;
-            margin: 0 auto;
-            border-radius: 30px;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            box-shadow: -2px 2px 9px -1px #000000;  
-        }
-
-        .first {
-            width: 100px;
-            height: 100px;
-        }
-
-        .container {
-            display: flex;
-            padding: 40px 400px;
-        }
-
-        .zar-at {
-            width: 100px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-            box-shadow: 0px 1px 0px 0px #f0f7fa;
-            background-color: #111;
-            border-radius: 6px;
-            border: 1px solid #111;
-            cursor: pointer;
-            color: #ffffff;
-            font-family: Arial;
-            font-size: 15px;
-            font-weight: bold;
-            padding: 9px 12px;
-            text-decoration: none;
-            text-shadow: 0px -1px 0px #111;
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="first-dice">
+        <div class="dice-container">
+            <div class="dice first-dice">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="dice last-dice">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
         </div>
-        <div class="last-dice">
-        </div>
+        <button class="roll" type="button">ZAR AT</button>
     </div>
-    <button class="zar-at">ZAR AT</button>
+
     <!--      <div class="dot">.</div> 
  -->
 </body>
