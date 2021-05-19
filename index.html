@@ -17,13 +17,15 @@
             grid-auto-rows: minmax(22px, 12px);
             width: 100px;
             height: 100px;
-            background-color: cyan;
+            background-color: white;
             margin: 0 auto;
             border-radius: 30px;
             align-items: center;
             justify-content: center;
             text-align: center;
-        }
+            box-shadow: -2px 2px 9px -1px #000000;        
+            
+            }
 
         .dot {
             font-size: 60px;
@@ -35,12 +37,13 @@
             grid-auto-rows: minmax(22px, 12px);
             width: 100px;
             height: 100px;
-            background-color: red;
+            background-color: white;
             margin: 0 auto;
             border-radius: 30px;
             align-items: center;
             justify-content: center;
             text-align: center;
+            box-shadow: -2px 2px 9px -1px #000000;  
         }
 
         .first {
@@ -48,9 +51,9 @@
             height: 100px;
         }
 
-        .x {
+        .container {
             display: flex;
-            padding: 0px 400px;
+            padding: 40px 400px;
         }
 
         .zar-at {
@@ -60,12 +63,24 @@
             align-items: center;
             justify-content: center;
             margin: 0 auto;
+            box-shadow: 0px 1px 0px 0px #f0f7fa;
+            background-color: #111;
+            border-radius: 6px;
+            border: 1px solid #111;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 9px 12px;
+            text-decoration: none;
+            text-shadow: 0px -1px 0px #111;
         }
     </style>
 </head>
 
 <body>
-    <div class="x">
+    <div class="container">
         <div class="first-dice">
         </div>
         <div class="last-dice">
